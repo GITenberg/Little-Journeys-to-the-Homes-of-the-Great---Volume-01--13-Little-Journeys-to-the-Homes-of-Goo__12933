@@ -1,0 +1,50 @@
+_repo: Little-Journeys-to-the-Homes-of-the-Great---Volume-01--13-Little-Journeys-to-the-Homes-of-Goo__12933
+_version: 0.0.1
+creator:
+  author:
+    agent_name: Hubbard, Elbert
+    aliases:
+    - Elbertus, Fra
+    - Ali Baba
+    birthdate: 1856
+    deathdate: 1915
+    gutenberg_agent_id: '228'
+    url: http://www.gutenberg.org/2009/agents/228
+    wikipedia: http://en.wikipedia.org/wiki/Elbert_Hubbard
+  editor:
+    agent_name: Bann, Fred
+    gutenberg_agent_id: '39950'
+    url: http://www.gutenberg.org/2009/agents/39950
+description: ''
+gutenberg_issued: '2004-07-18'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '12933'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Goldsmith, Oliver, 1730?-1774 -- Homes and haunts'
+- !lcsh 'Shakespeare, William, 1564-1616 -- Homes and haunts'
+- !lcsh 'Dickens, Charles, 1812-1870 -- Homes and haunts'
+- !lcsh 'Wordsworth, William, 1770-1850 -- Homes and haunts'
+- !lcsh 'Hugo, Victor, 1802-1885 -- Homes and haunts'
+- !lcsh 'Ruskin, John, 1819-1900 -- Homes and haunts'
+- !lcsh 'Carlyle, Thomas, 1795-1881 -- Homes and haunts'
+- !lcsh 'Thackeray, William Makepeace, 1811-1863 -- Homes and haunts'
+- !lcsh 'Edison, Thomas A. (Thomas Alva), 1847-1931 -- Homes and haunts'
+- !lcsh 'Turner, J. M. W. (Joseph Mallord William), 1775-1851 -- Homes and haunts'
+- !lcsh 'Eliot, George, 1819-1880 -- Homes and haunts'
+- !lcsh 'Whitman, Walt, 1819-1892 -- Homes and haunts'
+- !lcsh 'Swift, Jonathan, 1667-1745 -- Homes and haunts'
+- !lcsh 'Gladstone, W. E. (William Ewart), 1809-1898 -- Homes and haunts'
+- !lcc 'CT'
+- GITenberg
+tableOfContents: Autobiographical -- George Eliot -- Thomas Carlyle -- John Ruskin
+  -- William E. Gladstone -- J.M.W. Turner -- Jonathan Swift -- Walt Whitman -- Victor
+  Hugo -- Wm. Wordsworth -- William M. Thackeray -- Charles Dickens -- Oliver Goldsmith
+  -- William Shakespeare -- Thomas A. Edison.
+title: "Little Journeys to the Homes of the Great - Volume 01\r\nLittle Journeys to\
+  \ the Homes of Good Men and Great"
+url: http://www.gutenberg.org/ebooks/12933
