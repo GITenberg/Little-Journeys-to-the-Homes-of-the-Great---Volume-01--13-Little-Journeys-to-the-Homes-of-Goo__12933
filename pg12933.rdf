@@ -1,172 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
-  xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcam="http://purl.org/dc/dcam/"
 >
   <pgterms:ebook rdf:about="ebooks/12933">
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/12933/12933.txt">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430947</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/12933"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-09-21T07:47:56</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N5f8deda856774a05a8e0c655736ac461">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nea078b1db7e247bfb82583abb6b42ea7">
-        <rdf:value>Hugo, Victor, 1802-1885 -- Homes and haunts</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/228">
+        <pgterms:name>Hubbard, Elbert</pgterms:name>
+        <pgterms:alias>Ali Baba</pgterms:alias>
         <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1856</pgterms:birthdate>
         <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Elbert_Hubbard"/>
-        <pgterms:alias>Ali Baba</pgterms:alias>
-        <pgterms:alias>Elbertus, Fra</pgterms:alias>
         <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1915</pgterms:deathdate>
-        <pgterms:name>Hubbard, Elbert</pgterms:name>
+        <pgterms:alias>Elbertus, Fra</pgterms:alias>
       </pgterms:agent>
     </dcterms:creator>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N74821311c4654c0b91aaf9f18935cfc3">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
+    <dcterms:tableOfContents>Autobiographical -- George Eliot -- Thomas Carlyle -- John Ruskin -- William E. Gladstone -- J.M.W. Turner -- Jonathan Swift -- Walt Whitman -- Victor Hugo -- Wm. Wordsworth -- William M. Thackeray -- Charles Dickens -- Oliver Goldsmith -- William Shakespeare -- Thomas A. Edison.</dcterms:tableOfContents>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nad4ed4f860fa4089bbcc54b2301d5059">
+      <rdf:Description rdf:nodeID="N36f846847edc4c8fa100f90670c67240">
         <rdf:value>Turner, J. M. W. (Joseph Mallord William), 1775-1851 -- Homes and haunts</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
     </dcterms:subject>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12933.epub.noimages">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nab7d6049d8f04f33a4aa445248f92ac4">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-08-21T17:05:57.390211</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/12933/12933-8.txt">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430951</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-09-21T07:47:26</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/12933"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">209350</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/12933/12933-h/12933-h.htm">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-09-21T07:49:50</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/12933"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">469811</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbaad8337fdf04597a95e3aeacf7aeb32">
+          <rdf:Description rdf:nodeID="N779b71612fb64ec98cb5bb8b511a1f96">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/12933/12933.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/12933/12933.txt">
         <dcterms:isFormatOf rdf:resource="ebooks/12933"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-09-21T07:47:56</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf7207c14838d4e2ebac4b72c00f6376d">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">176051</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndc09470167594b45b34b89560cb11d38">
+          <rdf:Description rdf:nodeID="Nda5655d322064827aeb497810c6250e2">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-09-21T07:50:18</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430947</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N261c22459d3544bb8229b21de16a0e56">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nf59eb760ab2444428162882f4f82da50">
+      <rdf:Description rdf:nodeID="Na3f4f2f8cc3e47bfbb87c4223fc1c7d0">
         <rdf:value>Whitman, Walt, 1819-1892 -- Homes and haunts</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
     </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N81bc25bb6ac84c3ab8288ad5e2a9d4b4">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Thackeray, William Makepeace, 1811-1863 -- Homes and haunts</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nfb6eb524cb0c445586193161bb5e8f90">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Swift, Jonathan, 1667-1745 -- Homes and haunts</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/12933/12933-h.zip">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1787719</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/12933"/>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/12933/12933-h/12933-h.htm">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-09-21T07:49:50</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">469811</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N3610a2e3c4254d18891bcea66d89afce">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N3b3f3a0cf7d04d04b13806d9868d0e64">
+          <rdf:Description rdf:nodeID="Nc870994752d6425d81e5b5238bb1df17">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-09-21T07:50:18</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/12933"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nc45fc5408beb4d0db32a0690e73a7a0c">
-        <rdf:value>Shakespeare, William, 1564-1616 -- Homes and haunts</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
+    <dcterms:license rdf:resource="license"/>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12933.kindle.images">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">451844</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-08-21T17:06:01.682901</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/12933"/>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12933.txt.utf-8">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T01:24:39.177331</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N17bca9cd233349fe91629d86909b62d9">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          <rdf:Description rdf:nodeID="N24e53758dfa74a3186d720f8c3cda1c0">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/12933"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430923</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-07-18</dcterms:issued>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N5af2b8f51de54b90903a123ab15fcf75">
+      <rdf:Description rdf:nodeID="N61e51396debf4d3795f4669166a0167e">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Goldsmith, Oliver, 1730?-1774 -- Homes and haunts</rdf:value>
+        <rdf:value>Shakespeare, William, 1564-1616 -- Homes and haunts</rdf:value>
       </rdf:Description>
     </dcterms:subject>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="N438476733a00433dadb24cdbd0d9cffb">
-        <rdf:value>Text</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-      </rdf:Description>
-    </dcterms:type>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nd3afe16d92114cfb82549eae1ecb259a">
+      <rdf:Description rdf:nodeID="N1dc53f7b1ce14546aa3b3cdab9876d14">
+        <rdf:value>Edison, Thomas A. (Thomas Alva), 1847-1931 -- Homes and haunts</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Wordsworth, William, 1770-1850 -- Homes and haunts</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <marcrel:edt>
@@ -174,116 +108,105 @@
         <pgterms:name>Bann, Fred</pgterms:name>
       </pgterms:agent>
     </marcrel:edt>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12933.epub.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">339860</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/12933"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T01:24:39.739306</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N125d5a51d74740229b23ffec666e0477">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nde66ea4d46df48828ccfebd2e02bce41">
+      <rdf:Description rdf:nodeID="Ne5d4d903fa4045ecbb3b065c9ae5d803">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Swift, Jonathan, 1667-1745 -- Homes and haunts</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="Ne2f0e09eab42466baa82b131a8fb69eb">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Neade0562ce2641f29b4872c02e0ff60b">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Goldsmith, Oliver, 1730?-1774 -- Homes and haunts</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N809fd020f4534433af4978bae1f5b8b9">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Eliot, George, 1819-1880 -- Homes and haunts</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</pgterms:downloads>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N2019badc72614866b735b75cedea4179">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Ruskin, John, 1819-1900 -- Homes and haunts</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N715cfbeaa7ef4a9090971c035eecbe99">
-        <rdf:value>Gladstone, W. E. (William Ewart), 1809-1898 -- Homes and haunts</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nd5a2910443004572ab004f066e380fde">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Carlyle, Thomas, 1795-1881 -- Homes and haunts</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nf3cece56f0144bacab2bdc11ed7e7b65">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Dickens, Charles, 1812-1870 -- Homes and haunts</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/12933/12933-8.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/12933/12933.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N7a78100c098b4dcd8239f6329d52016d">
+          <rdf:Description rdf:nodeID="N1b47e5852d684a1582fab6eda3341289">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/12933"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">176078</dcterms:extent>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-09-21T07:50:18</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">176051</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N110f6a9e06d54108956b6bfd46f56ecb">
+          <rdf:Description rdf:nodeID="Nd0edde9880dd4a15a5f0a60f3b4d66e0">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/12933"/>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12933.txt.utf-8">
-        <dcterms:isFormatOf rdf:resource="ebooks/12933"/>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12933.kindle.images">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N98a41b45311942d9b158fd679ba41b11">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430919</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-15T14:10:16.300063</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12933.kindle.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/12933"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">310612</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N56052856d5f54e1ab0feece2c1f0d639">
+          <rdf:Description rdf:nodeID="Nd94299c027b244e8965f2afbc55eae10">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-08-21T17:05:59.841760</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1090044</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/12933"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T01:24:41.996269</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:title>Little Journeys to the Homes of the Great - Volume 01&#13;
+Little Journeys to the Homes of Good Men and Great</dcterms:title>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-07-18</dcterms:issued>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N2fba2416ff644dbaa4fc6007522b6a72">
-        <rdf:value>Edison, Thomas A. (Thomas Alva), 1847-1931 -- Homes and haunts</rdf:value>
+      <rdf:Description rdf:nodeID="N21ca6968fba4493f90c127ac570c8465">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Gladstone, W. E. (William Ewart), 1809-1898 -- Homes and haunts</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Ne5c9aa36e29e4441a6d646a034d76207">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Wordsworth, William, 1770-1850 -- Homes and haunts</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12933.qioo">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">238040</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12933.epub.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T01:24:40.132302</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/12933"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T11:57:36.738896</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">194578</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N753fdfcf0d5d41a598f3168863906206">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/12933/12933-8.txt">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-09-21T07:47:26</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/12933"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430951</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne5da7f734ea9429c86573513c75fd1f2">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12933.epub.images">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-08-21T17:05:58.095483</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">354041</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/12933"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc5b48b10979144f19f584837f6896604">
+          <rdf:Description rdf:nodeID="Nb33f30be1e8d43c5ae1016394b598a37">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
@@ -291,37 +214,104 @@
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12933.plucker">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T11:57:46.581049</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/12933"/>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/12933/12933-8.zip">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">176078</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Na68f5c1cc7d54e79ad852c6b99ac0bfb">
+          <rdf:Description rdf:nodeID="Nb7659cbca02c4c2db892aba8034b35d4">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">260714</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N55e8e8c2a77141f2ac9817a740713b8b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-09-21T07:50:18</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/12933"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</pgterms:downloads>
-    <dcterms:tableOfContents>Autobiographical -- George Eliot -- Thomas Carlyle -- John Ruskin -- William E. Gladstone -- J.M.W. Turner -- Jonathan Swift -- Walt Whitman -- Victor Hugo -- Wm. Wordsworth -- William M. Thackeray -- Charles Dickens -- Oliver Goldsmith -- William Shakespeare -- Thomas A. Edison.</dcterms:tableOfContents>
-    <dcterms:title>Little Journeys to the Homes of the Great - Volume 01&#13;
-Little Journeys to the Homes of Good Men and Great</dcterms:title>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N5c691f334b1f47a2a92b2056783de72f">
-        <rdf:value>CT</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      <rdf:Description rdf:nodeID="Nfbc436e965694aa884769710c7fe773c">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Hugo, Victor, 1802-1885 -- Homes and haunts</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nec3ef4661fe74891bd9f8b3e67f91879">
-        <rdf:value>Eliot, George, 1819-1880 -- Homes and haunts</rdf:value>
+      <rdf:Description rdf:nodeID="Nec988dff4362493ca0d9de2450b582ef">
+        <rdf:value>Carlyle, Thomas, 1795-1881 -- Homes and haunts</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
     </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N84517efedf214aac9cfb1773f989b28c">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>CT</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12933.rdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:09:48.366519</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf38616d14d8a4d75b944d42fbd2602d7">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/12933"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17677</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N5f6cfffba2be4a7aa90422c070ae3b4e">
+        <rdf:value>Dickens, Charles, 1812-1870 -- Homes and haunts</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/12933/12933-h.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nbfd25f85389d4959b636b71442b62c93">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nbcc6238ef71c4cc098bf1abc6f78f28b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/12933"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-09-21T07:50:18</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1787719</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N93eefd96ce2049fe881bd691abe3e534">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Thackeray, William Makepeace, 1811-1863 -- Homes and haunts</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/12933.kindle.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">801878</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6e4ff3a77bb145c183fad56e11ba9006">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-07T01:24:43.744230</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/12933"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Elbert_Hubbard">
     <dcterms:description>Wikipedia</dcterms:description>
